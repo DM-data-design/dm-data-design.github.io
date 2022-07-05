@@ -1,0 +1,183 @@
+.nav {
+  margin: 48px;
+}
+
+.nav-right {
+  display: inline-flex;
+}
+
+.nav-link {
+  font-family: "Karla";
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  margin-left: 48px;
+  align-content: flex-end;
+  padding: 0;
+  margin-top: -4px;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.logo {
+  width: 140px;
+}
+
+.menu-container {
+  margin: 250px 0 0 0;
+}
+
+.ultima{
+  margin-bottom: 200px;
+}
+
+/*MENU*/
+
+.menu-hover {
+  cursor: pointer;
+  margin: 0 22% 0 15%;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  color: #000000;
+}
+
+.menu-hover:hover {
+  transform: translate(30px, 0);
+  color: #ff0000;
+}
+
+.menu-voce {
+  margin: 80px 0% 80px 0%;
+  display: flex;
+  position: relative;
+}
+
+.testo-medium {
+  width: 100%;
+  left: 150px;
+  position: relative;
+}
+
+.testo-small-l {
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+  align-content: flex-start;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.testo-small-r {
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+  align-content: flex-end;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.riga {
+  border-top: 1px solid;
+}
+
+a {
+  font-family: "Karla";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+/*MOBILE*/
+
+@media (max-width: 1000px) {
+  .menu-hover {
+    margin: 0 48px 0 48px;
+  }
+  
+  .testo-medium {
+    left: 100px;
+  }
+
+  .testo-small-l {
+    font-size: 14px;
+  }
+
+  .testo-small-r {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    margin: 24px;
+  }
+
+  .menu-hover {
+    margin: 0 24px 0 24px;
+  }
+
+  .testo-medium {
+    left: 0px;
+  }
+
+  .testo-small-l {
+    font-size: 14px;
+    align-content: unset;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 16px;
+  }
+
+  .testo-small-r {
+    font-size: 14px;
+    align-content: unset;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 16px;
+  }
+
+  a {
+    font-size: 28px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .menu-container {
+    margin: 100px 0 0 0;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    margin-left: 36px;
+  }
+
+  .menu-voce {
+    display: inline-block;
+    margin: 40px 0% 40px 0%;
+  }
+
+}
