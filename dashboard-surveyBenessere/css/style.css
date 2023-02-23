@@ -25,13 +25,7 @@ body {
 #tableau-viz {
 /* outline: 2pt solid red; */
 /* border-radius: 10px; */
-box-shadow: 
-  0px 0px 4.3px rgba(0, 0, 0, 0.07),
-  0px 0px 10.9px rgba(0, 0, 0, 0.048),
-  0px 0px 22.2px rgba(0, 0, 0, 0.039),
-  0px 0px 45.6px rgba(0, 0, 0, 0.031),
-  0px 0px 125px rgba(0, 0, 0, 0.022)
-;
+
 }
 
 .tableauPlaceholder {
