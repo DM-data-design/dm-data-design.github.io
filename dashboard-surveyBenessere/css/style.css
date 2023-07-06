@@ -1,5 +1,6 @@
 body {
-  background-color: #F0F6F9;
+  background: rgb(231,247,255);
+background: linear-gradient(142deg, rgba(231,247,255,1) 0%, rgba(241,227,255,1) 100%);
 }
 
 /* .tableauViz {
